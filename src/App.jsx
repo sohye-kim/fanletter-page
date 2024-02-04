@@ -1,17 +1,31 @@
 import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import React from 'react';
 
-function App() {
+const HeaderForm = styled.header`
+  background-color: rgb(28, 53, 93);
+  height: 250px;
+`;
+
+const Logo = styled.img`
+  width: 150px;
+  height: 60px;
+`;
+
+const SubTitle = styled.h2`
+  color: white;
+  display: inline;
+`;
+
+const App = () => {
   return (
     <>
-      <header className="header">
-        <img src={logo} className="logo" alt="secondwind bss logo" />
-        <span>Fan letter Page</span>
-      </header>
-      
+      <HeaderForm>
+        <Logo src={logo} alt="secondwind bss logo"></Logo>
+        <SubTitle>Fan letter Page</SubTitle>
+      </HeaderForm>
     </>
-      
   );
-}
+};
 
 export default App;
