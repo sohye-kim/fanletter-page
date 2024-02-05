@@ -28,14 +28,13 @@ const SubTitle = styled.h2`
 const AlbumImg = styled.img`
   position: absolute;
   left: 80%;
-  top: 10%;
+  top: 15%;
   width: 10rem;
   height: 10rem;
   border: 8px solid rgb(206, 83, 85);
 `;
 
 const App = () => {
-
   return (
     <BodyContainer>
       <HeadereForm>
