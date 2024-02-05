@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import logo from './img/logo.svg';
+import secondwind from './img/secondwind.jpg';
 import styled from 'styled-components';
 import React from 'react';
 
-const HeaderForm = styled.header`
+const HeadereForm = styled.header`
+  width: 20rem;
+  height: 100vh;
   background-color: rgb(28, 53, 93);
-  height: 250px;
 `;
 
 const Logo = styled.img`
@@ -17,13 +19,21 @@ const SubTitle = styled.h2`
   display: inline;
 `;
 
+const AlbumImg = styled.img`
+  width: 10rem;
+  height: 10rem;
+  border: 8px solid rgb(206, 83, 85);
+  margin: 8rem 5rem 5px 4rem;
+`;
+
 const App = () => {
   return (
     <>
-      <HeaderForm>
+      <HeadereForm>
         <Logo src={logo} alt="secondwind bss logo"></Logo>
         <SubTitle>Fan letter Page</SubTitle>
-      </HeaderForm>
+        <AlbumImg src={secondwind}></AlbumImg>
+      </HeadereForm>
     </>
   );
 };
