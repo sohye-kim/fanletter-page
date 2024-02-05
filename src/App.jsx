@@ -1,5 +1,6 @@
 import logo from './img/logo.svg';
 import secondwind from './img/secondwind.jpg';
+import { Button } from 'react-bootstrap'
 import styled from 'styled-components';
 
 
@@ -27,8 +28,8 @@ const SubTitle = styled.h2`
 
 const AlbumImg = styled.img`
   position: absolute;
-  left: 80%;
-  top: 15%;
+  left: 85%;
+  top: 13%;
   width: 10rem;
   height: 10rem;
   border: 8px solid rgb(206, 83, 85);
