@@ -1,5 +1,5 @@
-import logo from './img/logo.svg';
-import secondwind from './img/secondwind.jpg';
+import logo from './assets/logo.svg';
+import secondwind from './assets/secondwind.jpg';
 import { Button } from 'react-bootstrap'
 import styled from 'styled-components';
 
@@ -41,6 +41,11 @@ const App = () => {
       <HeadereForm>
         <Logo src={logo} alt="secondwind bss logo" />
         <SubTitle>Fan letter Page</SubTitle>
+        <ul>
+          <li>부</li>
+          <li>석</li>
+          <li>순</li>
+        </ul>
       </HeadereForm>
       <AlbumImg src={secondwind} alt="secondwind image" />
     </BodyContainer>
